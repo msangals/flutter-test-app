@@ -35,6 +35,7 @@ class AppointmentsNavigator extends StatelessWidget {
         initialRoute: AppointmentsNavigatorRoutes.appointments,
         onGenerateRoute: (RouteSettings routeSettings) {
           return MaterialPageRoute(
+            maintainState: false,
             builder: (context) => routes[routeSettings.name](context, routeSettings.arguments),
           );
         });
