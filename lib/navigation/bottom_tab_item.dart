@@ -1,0 +1,1 @@
+enum BottomTabItem { home, messages, profile, appointments }

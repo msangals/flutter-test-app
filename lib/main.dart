@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_test_app/navigation.dart';
+import 'package:flutter_test_app/navigation/main_navigator.dart';
 import 'package:flutter_test_app/theme/theme.dart';
 
 void main() => runApp(TestApp());
@@ -10,7 +10,7 @@ class TestApp extends StatelessWidget {
     return MaterialApp(
       title: 'Multi Tenant',
       theme: tenantThemeData,
-      home: Navigation(),
+      home: MainNavigator(),
     );
   }
 }
